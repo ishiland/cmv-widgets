@@ -4,10 +4,10 @@ Advanced Draw Widget for the Configurable Map Viewer (CMV).
 This widget was slightly modified from the codebase found [here](https://github.com/stevenjh/advanced-draw-widget/tree/development).
 
 ## Features
-- Add text to map
+- Add styled text and geometries to map
+- Right click drawing to edit
 - Redo and Undo drawn features
 - Snap to existing features   
-- Specify Outline, Fill and Width properties
 
 ## Configuration
 
@@ -15,18 +15,15 @@ This widget was slightly modified from the codebase found [here](https://github.
             // sample configuration
             advancedDraw: {
                 include: true,
-                open: false,
-                position: 1,
+                open: true,
+                position: 3,
                 id: 'advancedDraw',
                 title: 'Advanced Draw',
                 iconClass: 'fas fa-fw fa-pencil-alt',
                 type: 'titlePane',
-                path: 'gis/dijit/AdvancedDraw',
-                options: {
-                    map: true,
-                    mapClickMode: true
-                }
-            }
+                path: 'gis/plugins/AdvancedDraw',
+                options: 'config/advancedDrawConfig'
+            },
 ```
 ## demo
 Check it out in action [here](https://ishiland.github.io/cmv-widgets/).
