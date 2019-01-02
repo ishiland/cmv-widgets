@@ -1,11 +1,9 @@
 # Advanced Draw
 Advanced Draw Widget for the Configurable Map Viewer (CMV).
 
-This widget was slightly modified from the codebase found [here](https://github.com/stevenjh/advanced-draw-widget/tree/development).
-
 ## Features
-- Add styled text and geometries to map
-- Right click drawing to edit
+- Add styled text and symbols to the map
+- Right click drawn feature to edit text/symbols
 - Redo and Undo drawn features
 - Snap to existing features   
 
@@ -25,5 +23,9 @@ This widget was slightly modified from the codebase found [here](https://github.
                 options: 'config/advancedDrawConfig'
             },
 ```
+
+## Acknowledgments
+This widget has been modified from the codebase found [here](https://github.com/stevenjh/advanced-draw-widget/tree/development).
+
 ## demo
 Check it out in action [here](https://ishiland.github.io/cmv-widgets/).

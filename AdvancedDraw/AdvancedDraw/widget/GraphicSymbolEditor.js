@@ -9,6 +9,7 @@ define([
     './SLSEditor',
     './SFSEditor',
     './TextEditor',
+
     '../undo/editSymbolGraphicOp',
     'dojo/i18n!../nls/resource',
     'xstyle/css!./css/GraphicSymbolEditor.css'
@@ -51,6 +52,7 @@ define([
         _getGraphicAttr: function () {
 
             var symbol = this.editor.get('symbol');
+
             this._updateGraphicWithSymbol(symbol);
             return this.graphic;
 
@@ -87,7 +89,6 @@ define([
         },
 
         _createEditor: function (widget) {
-
             var Editor = widget.control;
             this.editor = new Editor({
                 editorLabel: widget.editorLabel,
@@ -97,8 +98,9 @@ define([
             this.editor.set('symbol', this.graphic.symbol.toJson());
 
             this.editor.watch('symbol', lang.hitch(this, function () {
-                var value = arguments[2]
-                this._updateGraphicWithSymbol(value);
+
+                this._updateGraphicWithSymbol(arguments[2]);
+
             }));
 
             this._createContainers();

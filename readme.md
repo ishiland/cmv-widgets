@@ -11,6 +11,7 @@ Check out the widgets [here](https://ishiland.github.io/cmv-widgets/) for a full
 ### AdvancedDraw
    * Add text to map
    * Undo/Redo drawn features
+   * Edit drawn features
    * [View the Documentation](AdvancedDraw/)
 
    ![URL Field](AdvancedDraw/screenshot.PNG)
