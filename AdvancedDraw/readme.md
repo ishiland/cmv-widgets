@@ -1,5 +1,5 @@
 # Advanced Draw
-Advanced Draw Widget for the Configurable Map Viewer (CMV).
+Advanced Draw Widget for the Configurable Map Viewer (CMV). [Demo it here](https://ishiland.github.io/cmv-widgets/).
 
 ## Features
 - Add styled text and symbols to the map
@@ -27,5 +27,6 @@ Advanced Draw Widget for the Configurable Map Viewer (CMV).
 ## Acknowledgments
 This widget has been modified from the codebase found [here](https://github.com/stevenjh/advanced-draw-widget/tree/development).
 
-## demo
-Check it out in action [here](https://ishiland.github.io/cmv-widgets/).
+## Screenshot
+![Advanced Draw Widget ](screenshot.PNG)
+
